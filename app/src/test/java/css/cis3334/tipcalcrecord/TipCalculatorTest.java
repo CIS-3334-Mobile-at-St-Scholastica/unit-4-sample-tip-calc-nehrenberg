@@ -24,9 +24,9 @@ public class TipCalculatorTest {
     @Test
     public void singlePersonNormalServiceTest() throws Exception {
         // Arrange
-        Double bill = 10.0;
-        Integer numParty = 1;
-        Double expectedTotTip = 1.0;
+        Double bill = 30.0;
+        Integer numParty = 3;
+        Double expectedTotTip = 3.0;
         Double expectedTipPerPerson = 1.0;
         boolean outstandingService = false;
         // Act
